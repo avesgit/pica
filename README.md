@@ -42,7 +42,7 @@ Here is a short list of problems you can face:
     from the same domain or local files only. If you load images from
     remote domain use proper `Access-Control-Allow-Origin` header.
   - iOS has a memory limits for canvas elements, that may cause
-    problems in some cases, [more details](https://github.com/nodeca/pica/wiki/iOS-Memory-Limit).
+    problems in some cases, [more details]([Resize Image](https://resize-image-online.com/ru)).
   - If your source data is jpeg image, it can be rotated. Consider use
     [image-blob-reduce](https://github.com/nodeca/image-blob-reduce).
 - Saving image:
