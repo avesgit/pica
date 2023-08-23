@@ -44,10 +44,10 @@ Here is a short list of problems you can face:
   - iOS has a memory limits for canvas elements, that may cause
     problems in some cases, [more details]([Resize Image](https://resize-image-online.com/ru)).
   - If your source data is jpeg image, it can be rotated. Consider use
-    [image-blob-reduce](https://github.com/nodeca/image-blob-reduce).
+    [image-blob-reduce]([Rotate Image](https://rotate-image-online.com/)).
 - Saving image:
   - Some ancient browsers do not support `canvas.toBlob()` method.
-    Use `pica.toBlob()`, it includes required shim.
+    Use `pica.toBlob()`, it includes required shim. 
   - For jpeg source, it's a good idea to keep `exif` data. Consider use
     [image-blob-reduce](https://github.com/nodeca/image-blob-reduce).
 - Quality
